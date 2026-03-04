@@ -70,13 +70,13 @@ Once connected, the tool displays a live dashboard:
 
 ```
 ┌─ ◆ VPN Connect ──────────────────────────────────────────┐
-│  ◆ VPN CONNECT   Connected (DTLS)   ⏱ 01:23:45          │
+│  ◆ VPN CONNECT   Connected (DTLS)   ⏱ 01:23:45           │
 ├──────────────────────────┬───────────────────────────────┤
 │  Connection              │  Traffic                      │
-│  Server   vpn.school.edu │  Metric      ↓ RX     ↑ TX   │
-│  Local IP 10.0.12.34     │  Data     45.2 MB  12.1 MB   │
-│  DNS      10.0.0.1       │  Packets  31,204   18,442    │
-│  CSTP     AES-256-GCM    │  Errors   0        0         │
+│  Server   vpn.school.edu │  Metric      ↓ RX     ↑ TX    │
+│  Local IP 10.0.12.34     │  Data     45.2 MB  12.1 MB    │
+│  DNS      10.0.0.1       │  Packets  31,204   18,442     │
+│  CSTP     AES-256-GCM    │  Errors   0        0          │
 │  Uptime   01:23:45       │                               │
 ├──────────────────────────┴───────────────────────────────┤
 │  Press Ctrl+C to disconnect and exit                     │

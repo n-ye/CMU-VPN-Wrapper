@@ -49,10 +49,10 @@ def extract_cookies_via_browser(
         browser = p.chromium.launch(
             channel="chrome",
             headless=False,
-            args=["--disable-blink-features=AutomationControlled"],
+            args=["--disable-blink-features=AutomationControlled","--window-position=1000,600"],
         )
         context = browser.new_context(
-            viewport={"width": 1280, "height": 800},
+            viewport={"width": 800, "height": 600},
             user_agent=(
                 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                 "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
